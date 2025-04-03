@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>IPTV Playlist Editor</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>📺 IPTV Playlist Editor</h1>
+        <div class="controls">
+            <input type="file" id="fileInput" />
+            <span id="fileName">Dosya seçilmedi</span>
+            <input type="text" id="outputName" placeholder="Dosya adı" />
+            <button onclick="downloadM3U()">İndir</button>
+        </div>
+        <div id="channelList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
