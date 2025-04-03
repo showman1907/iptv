@@ -40,46 +40,89 @@
   <h1>M3U Kanal Yöneticisi</h1>
   <ul id="channelList"></ul>
   <button id="saveBtn">Değişiklikleri Kaydet</button>
+<script>
+  async function loadChannels() {
+    const token = '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'; // ✉️ Tokenı buraya ekle (geçici)
+    const username = 'showman1907';
+    const repo = 'iptv';
+    const path = 'm3u-editor/channels.json';
 
-  <script>
-    async function loadChannels() {
-      const response = await fetch('channels.json');
-      const channels = await response.json();
-      const list = document.getElementById('channelList');
-      list.innerHTML = '';
-      channels.forEach((channel, index) => {
-        const li = document.createElement('li');
-        li.setAttribute('data-index', index);
-        li.innerHTML = `
-          <span>${channel.name}</span>
-          <div class="actions">
-            <button onclick="removeChannel(${index})">Sil</button>
-          </div>
-        `;
-        list.appendChild(li);
-      });
-      Sortable.create(list, { animation: 150 });
-    }
-
-    function removeChannel(index) {
-      const list = document.getElementById('channelList');
-      const item = list.querySelector(`li[data-index='${index}']`);
-      if (item) item.remove();
-    }
-
-    document.getElementById('saveBtn').addEventListener('click', () => {
-      const list = document.querySelectorAll('#channelList li');
-      const result = Array.from(list).map((li, i) => {
-        return { name: li.querySelector('span').innerText };
-      });
-      fetch('save.php', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(result)
-      }).then(res => alert('Kaydedildi'));
+    const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github.v3.raw"
+      }
     });
 
-    loadChannels();
-  </script>
-</body>
-</html>
+    if (!response.ok) {
+      console.error('GitHub içeriği alınamadı');
+      return;
+    }
+
+    const channels = await response.json();
+    const container = document.getElementById('channel-container');
+
+    channels.forEach(channel => {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.value = channel;
+      input.className = 'channel-input';
+      container.appendChild(input);
+    });
+  }
+
+  async function saveChanges() {
+    const updatedChannels = [...document.querySelectorAll('.channel-input')]
+      .map(input => input.value.trim())
+      .filter(Boolean);
+
+    const token = 'GH_TOKENINI_BURAYA_YAZ'; // ✉️ Tokenı buraya ekle (geçici)
+    const username = 'showman1907';
+    const repo = 'iptv';
+    const path = 'm3u-editor/channels.json';
+
+    const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github.v3+json"
+      }
+    });
+
+    if (!response.ok) {
+      alert('GitHub API isteği başarısız oldu');
+      return;
+    }
+
+    const file = await response.json();
+    const base64Content = btoa(JSON.stringify(updatedChannels, null, 2));
+
+    const update = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
+      method: 'PUT',
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github.v3+json"
+      },
+      body: JSON.stringify({
+        message: "M3U kanal listesi güncellendi",
+        content: base64Content,
+        sha: file.sha
+      })
+    });
+
+    if (update.ok) {
+      alert('Kanal listesi GitHub’a kaydedildi!');
+    } else {
+      alert('Kaydedilemedi. Lütfen tokenı kontrol edin.');
+    }
+  }
+
+  window.onload = loadChannels;
+</script>
+
+<!-- Kanal listesi inputları için konteyner -->
+<div id="channel-container"></div>
+
+<!-- Değişiklikleri Kaydet butonu -->
+<button onclick="saveChanges()" style="background-color:green;color:white;padding:10px 20px;margin-top:20px">
+  Değişiklikleri Kaydet
+</button>
