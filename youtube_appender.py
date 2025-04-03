@@ -8,7 +8,7 @@ youtube_videos = [
     }
 ]
 
-iptv_file = "gokhan_iptv.m3u"
+iptv_file = "gkhn190744.m3u"
 
 # Mevcut dosyayı oku
 with open(iptv_file, "r", encoding="utf-8") as file:
@@ -27,6 +27,7 @@ for line in lines:
         continue
     cleaned_lines.append(line)
 
+# Yeni YouTube bölümü oluştur
 youtube_section = ["\n# === YOUTUBE ===\n"]
 for video in youtube_videos:
     youtube_section.append(
