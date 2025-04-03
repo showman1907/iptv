@@ -24,12 +24,9 @@ jobs:
         run: python youtube_appender.py
 
       - name: Değişiklikleri Commit Et ve Pushla
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name "GokhanBot"
           git config user.email "iptv-bot@gokhanelgul.com"
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
           git add gokhan_iptv.m3u
           git commit -m "YouTube videoları eklendi: $(date)" || echo "Değişiklik yok"
-          git push
+          git push origin main
