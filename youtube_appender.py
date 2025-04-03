@@ -1,11 +1,11 @@
 # youtube_appender.py
 import subprocess
 
-# Eklemek istediğiniz YouTube videoları burada
+# Eklemek istediğiniz YouTube canlı yayın videoları burada
 youtube_videos = [
     {
-        "id": "aQuDq8w2MXQ",
-        "name": "Özel YouTube Kanalı"
+        "id": "ztmY_cCtUl0",
+        "name": "Sözcü TV (YouTube Canlı)"
     }
 ]
 
