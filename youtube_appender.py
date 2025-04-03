@@ -21,8 +21,12 @@ def get_stream_url(video_id):
             check=True
         )
         url = result.stdout.strip().splitlines()[0]
+        print(f"[✓] {video_id} için stream bulundu: {url}")
         return url
-    except subprocess.CalledProcessError:
+    except subprocess.CalledProcessError as e:
+        print(f"[!] {video_id} için yt-dlp çalışmadı!")
+        print("stderr:", e.stderr)
+        print("stdout:", e.stdout)
         return None
 
 # Mevcut dosyayı oku
