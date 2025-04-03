@@ -2,47 +2,24 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M3U Kanal Yöneticisi</title>
-  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <title>M3U Kanal Editörü</title>
   <style>
-    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 2rem; }
-    h1 { font-size: 24px; text-align: center; }
+    body { font-family: sans-serif; padding: 20px; }
     ul { list-style: none; padding: 0; }
-    li {
-      background: white;
-      margin: 0.5rem 0;
-      padding: 1rem;
-      border: 1px solid #ccc;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .actions button {
-      background: crimson;
-      border: none;
-      color: white;
-      padding: 0.3rem 0.6rem;
-      cursor: pointer;
-    }
-    #saveBtn {
-      background: green;
-      color: white;
-      padding: 0.6rem 1.2rem;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      margin-top: 1rem;
-    }
+    li { margin-bottom: 10px; }
+    input { width: 80%; padding: 8px; }
+    button { background-color: green; color: white; padding: 10px 20px; margin-top: 20px; cursor: pointer; }
   </style>
 </head>
 <body>
-  <h1>M3U Kanal Yöneticisi</h1>
-  <ul id="channelList"></ul>
-  <button id="saveBtn">Değişiklikleri Kaydet</button>
+
+<h1>M3U Kanal Editörü</h1>
+<ul id="channelList"></ul>
+<button onclick="saveChanges()">Değişiklikleri Kaydet</button>
+
 <script>
   async function loadChannels() {
-    const token = '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'; // ✉️ Tokenı buraya ekle (geçici)
+    const token = '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';
     const username = 'showman1907';
     const repo = 'iptv';
     const path = 'm3u-editor/channels.json';
@@ -60,14 +37,12 @@
     }
 
     const channels = await response.json();
-    const container = document.getElementById('channel-container');
-
+    const container = document.getElementById('channelList');
+    container.innerHTML = '';
     channels.forEach(channel => {
-      const input = document.createElement('input');
-      input.type = 'text';
-      input.value = channel;
-      input.className = 'channel-input';
-      container.appendChild(input);
+      const li = document.createElement('li');
+      li.innerHTML = `<input type="text" class="channel-input" value="${channel}" style="width: 80%; padding: 5px;">`;
+      container.appendChild(li);
     });
   }
 
@@ -76,7 +51,7 @@
       .map(input => input.value.trim())
       .filter(Boolean);
 
-    const token = 'GH_TOKENINI_BURAYA_YAZ'; // ✉️ Tokenı buraya ekle (geçici)
+    const token = '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';
     const username = 'showman1907';
     const repo = 'iptv';
     const path = 'm3u-editor/channels.json';
@@ -119,10 +94,5 @@
   window.onload = loadChannels;
 </script>
 
-<!-- Kanal listesi inputları için konteyner -->
-<div id="channel-container"></div>
-
-<!-- Değişiklikleri Kaydet butonu -->
-<button onclick="saveChanges()" style="background-color:green;color:white;padding:10px 20px;margin-top:20px">
-  Değişiklikleri Kaydet
-</button>
+</body>
+</html>
