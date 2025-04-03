@@ -18,7 +18,9 @@ jobs:
           python-version: '3.x'
 
       - name: Gerekli Paketleri Kur
-        run: pip install requests
+        run: |
+          pip install requests
+          pip install yt-dlp
 
       - name: YouTube Videolarını M3U'ya Ekle
         run: python youtube_appender.py
