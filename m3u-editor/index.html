@@ -19,26 +19,16 @@
 
 <script>
   async function loadChannels() {
-    const token = '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';
-    const username = 'showman1907';
-    const repo = 'iptv';
-    const path = 'm3u-editor/channels.json';
-
-    const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: "application/vnd.github.v3.raw"
-      }
-    });
-
+    const response = await fetch('https://raw.githubusercontent.com/showman1907/iptv/main/m3u-editor/channels.json');
     if (!response.ok) {
-      console.error('GitHub içeriği alınamadı');
+      console.error('Kanal listesi yüklenemedi');
       return;
     }
 
     const channels = await response.json();
     const container = document.getElementById('channelList');
     container.innerHTML = '';
+
     channels.forEach(channel => {
       const li = document.createElement('li');
       li.innerHTML = `<input type="text" class="channel-input" value="${channel}" style="width: 80%; padding: 5px;">`;
@@ -46,53 +36,15 @@
     });
   }
 
-  async function saveChanges() {
-    const updatedChannels = [...document.querySelectorAll('.channel-input')]
-      .map(input => input.value.trim())
-      .filter(Boolean);
-
-    const token = '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';
-    const username = 'showman1907';
-    const repo = 'iptv';
-    const path = 'm3u-editor/channels.json';
-
-    const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: "application/vnd.github.v3+json"
-      }
-    });
-
-    if (!response.ok) {
-      alert('GitHub API isteği başarısız oldu');
-      return;
-    }
-
-    const file = await response.json();
-    const base64Content = btoa(JSON.stringify(updatedChannels, null, 2));
-
-    const update = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${path}`, {
-      method: 'PUT',
-      headers: {
-        Authorization: `token ${token}`,
-        Accept: "application/vnd.github.v3+json"
-      },
-      body: JSON.stringify({
-        message: "M3U kanal listesi güncellendi",
-        content: base64Content,
-        sha: file.sha
-      })
-    });
-
-    if (update.ok) {
-      alert('Kanal listesi GitHub’a kaydedildi!');
-    } else {
-      alert('Kaydedilemedi. Lütfen tokenı kontrol edin.');
-    }
-  }
-
   window.onload = loadChannels;
 </script>
 
-</body>
-</html>
+<!-- Kanal listesi inputları için konteyner -->
+<ul id="channelList"></ul>
+
+<!-- Değişiklikleri Kaydet butonu (bu versiyonda işlevsiz) -->
+<button style="background-color:green;color:white;padding:10px 20px;margin-top:20px" disabled>
+  Değişiklikleri Kaydet (Pasif)
+</button>
+<p style="color: gray; font-style: italic;">Kaydetme GitHub token erişimi gerektirdiğinden devre dışı bırakıldı.</p>
+
