@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M3U Kanal Yöneticisi</title>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <style>
+    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 2rem; }
+    h1 { font-size: 24px; text-align: center; }
+    ul { list-style: none; padding: 0; }
+    li {
+      background: white;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .actions button {
+      background: crimson;
+      border: none;
+      color: white;
+      padding: 0.3rem 0.6rem;
+      cursor: pointer;
+    }
+    #saveBtn {
+      background: green;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>M3U Kanal Yöneticisi</h1>
+  <ul id="channelList"></ul>
+  <button id="saveBtn">Değişiklikleri Kaydet</button>
+
+  <script>
+    async function loadChannels() {
+      const response = await fetch('channels.json');
+      const channels = await response.json();
+      const list = document.getElementById('channelList');
+      list.innerHTML = '';
+      channels.forEach((channel, index) => {
+        const li = document.createElement('li');
+        li.setAttribute('data-index', index);
+        li.innerHTML = `
+          <span>${channel.name}</span>
+          <div class="actions">
+            <button onclick="removeChannel(${index})">Sil</button>
+          </div>
+        `;
+        list.appendChild(li);
+      });
+      Sortable.create(list, { animation: 150 });
+    }
+
+    function removeChannel(index) {
+      const list = document.getElementById('channelList');
+      const item = list.querySelector(`li[data-index='${index}']`);
+      if (item) item.remove();
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', () => {
+      const list = document.querySelectorAll('#channelList li');
+      const result = Array.from(list).map((li, i) => {
+        return { name: li.querySelector('span').innerText };
+      });
+      fetch('save.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(result)
+      }).then(res => alert('Kaydedildi'));
+    });
+
+    loadChannels();
+  </script>
+</body>
+</html>
