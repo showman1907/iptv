@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="" tvg-name="TRT 1" tvg-logo="" group-title="Ulusal",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="atv" tvg-logo="" group-title="Ulusal",atv
-http://stream.tvcdn.net/ulusal/atv.m3u8
+https://trkvz-live.daioncdn.net/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal D" tvg-logo="" group-title="Ulusal",Kanal D
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Show TV" tvg-logo="" group-title="Ulusal",Show TV
