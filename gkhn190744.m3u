@@ -57,8 +57,6 @@ https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8
 https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8?e=&st=
 #EXTINF:-1 tvg-id="" tvg-name="A2" tvg-logo="" group-title="Haber",A2
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRT 2" tvg-logo="" group-title="Haber",TRT 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="" tvg-name="Akit TV" tvg-logo="" group-title="Haber",Akit TV
 https://akittv-live.ercdn.net/akittv/akittv_480p.m3u8?hash=3f277808dd527874fba12c4fb05536f5
 #EXTINF:-1 tvg-id="" tvg-name="TRT Belgesel" tvg-logo="" group-title="Belgesel",TRT Belgesel
@@ -71,8 +69,6 @@ https://dogus-live.daioncdn.net/dmax/dmax_720p.m3u8
 http://unreal.eztv4you.xyz:25461/98392023/224vpw99f7/432433
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo Wild" tvg-logo="" group-title="Belgesel",Nat Geo Wild
 https://tv.arectv29.sbs/live/natgeowild.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="History Channel" tvg-logo="" group-title="Belgesel",History Channel
-#EXTVLCOPT:http-user-agent=googleusercontent
 #EXTINF:-1 tvg-id="" tvg-name="Viasat Explore" tvg-logo="" group-title="Belgesel",Viasat Explore
 https://tv.arectv29.sbs/live/viasathistory.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Viasat History" tvg-logo="" group-title="Belgesel",Viasat History
@@ -149,8 +145,6 @@ http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/90.ts.m3u8
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/106.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sinema TV" tvg-logo="" group-title="Sinema",Sinema TV
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/82.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 10" tvg-logo="" group-title="Sinema",Kanal 10
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Sa
 #EXTINF:-1 tvg-id="" tvg-name="FB TV" tvg-logo="" group-title="Spor",FB TV
 #EXTVLCOPT:http-referrer=https://canlitv.com/
 #EXTINF:-1 tvg-id="" tvg-name="A Spor" tvg-logo="" group-title="Spor",A Spor
@@ -253,200 +247,6 @@ https://yayin.slowkaradeniztv.com:3390/hybrid/play.m3u8
 https://cdn-4turkpop.yayin.com.tr/4turkpop/4turkpop/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Yansıma Müzik" tvg-logo="" group-title="Müzik Kanalları",Yansıma Müzik
 https://hls.goodgame.ru/hls/214752.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iron Man" tvg-logo="" group-title="MCU",Iron Man
-https://vidrame.pro/vr/get/ef7709d0/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Inanilmaz Hulk" tvg-logo="" group-title="MCU",Inanilmaz Hulk
-https://a3.vidload.lol/2591/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Iron man 2" tvg-logo="" group-title="MCU",Iron man 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/70/80/01/29/36/78/99/84/47/1/373d0167-f416-4e75-848b-bc0e44c7611c/kaltura/desc_7f17a82064f40ac877a70695ad7b9346/vtvTSifzK0nA/vw=1280,vh=544,fps=24.00,vbrt=1149762,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Thor" tvg-logo="" group-title="MCU",Thor
-https://cdn.dzen.ru/vod/converted-video/vod-content/44/90/09/21/36/02/54/97/46/0/176360d9-c58e-413a-b145-4e8c66417dac/kaltura/desc_1b6c88e745811e07e6a99bada5c94f51/v_bnpOI4PZUM/vw=1280,vh=544,fps=24.00,vbrt=934354,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Ilk Yenilmez" tvg-logo="" group-title="MCU",Ilk Yenilmez
-https://cdn.dzen.ru/vod/converted-video/vod-content/30/84/26/74/68/45/41/47/98/3/bddcff97-67fd-4788-9f2c-c12586f42600/kaltura/desc_f6ec1097d17f698b03ba748aa2c7b7b6/v6GGx0iLnsiQ/vw=1280,vh=544,fps=24.00,vbrt=783951,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Avengers" tvg-logo="" group-title="MCU",Avengers
-https://vidrame.pro/vr/get/9de3d24b/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Iron Man 3" tvg-logo="" group-title="MCU",Iron Man 3
-https://s3.pixypost.art/mh/ETIgnKVhDJEuoF4mYwRjBQOjYxEIDHjd0zxpTy4rKOip3DhLKW0s0xi3vr1
-#EXTINF:-1 tvg-id="" tvg-name="Thor 2" tvg-logo="" group-title="MCU",Thor 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/22/25/01/60/43/73/41/47/47/5/5ce15b5a-df9b-4b8c-be2d-e745b7e7d43a/kaltura/desc_28b82a8b0bef2d0d5418db951cdd0915/vhBItdrV9m0A/vw=1280,vh=534,fps=24.00,vbrt=787296,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kaptan Amerika 2" tvg-logo="" group-title="MCU",Kaptan Amerika 2
-https://hls9.playmix.uno/hls/captainamerica-2-thewintersoldier-2014-trdualmp4-1ZbaS3jutnZ.mp4/master.txt
-#EXTINF:-1 tvg-id="" tvg-name="Kaptan Amerika 2" tvg-logo="" group-title="MCU",Kaptan Amerika 2
-https://vidrame.pro/vr/get/08b02408/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Galaksinin Koruyuculari" tvg-logo="" group-title="MCU",Galaksinin Koruyuculari
-https://cdn.dzen.ru/vod/converted-video/vod-content/45/85/57/53/01/82/12/72/15/4/9d74f3d1-585a-4041-a0f8-6489c4a9886e/kaltura/desc_0db591c6af9786fc4cd8bb15ab37c7c1/vW0FnTqhn1BU/vw=1280,vh=534,fps=24.00,vbrt=910952,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Avengers 2" tvg-logo="" group-title="MCU",Avengers 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/61/90/98/57/07/44/69/19/58/ca618471-04c3-45dc-956d-adfe9e7cb10f/kaltura/desc_0bb28014aefcef6907153e375f95d4d6/vHOmnVGHECXw/vw=1280,vh=536,fps=24.00,vbrt=1153873,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Karinca Adam" tvg-logo="" group-title="MCU",Karinca Adam
-https://cdn.dzen.ru/vod/converted-video/vod-content/35/29/09/47/71/96/10/08/91/5/4d2ed540-91c1-4eca-a10c-387c093ad2fd/kaltura/desc_5d929c188e71e18a3bb21f8a08cb1bed/v-E1yJsQFHXE/vw=1280,vh=692,fps=24.00,vbrt=1228758,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Civil War" tvg-logo="" group-title="MCU",Civil War
-https://cdn.dzen.ru/vod/converted-video/vod-content/91/10/49/94/82/38/47/87/71/3/e75a8e4d-6761-430c-90f8-6fc69f8a7c0a/kaltura/desc_1374991048be5cece18ee2d321510c1b/v7selF-EPCBY/vw=1280,vh=536,fps=24.00,vbrt=959083,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Doctor Strange" tvg-logo="" group-title="MCU",Doctor Strange
-https://cdn.dzen.ru/vod/converted-video/vod-content/58/78/90/47/32/89/20/05/32/5/2871b00c-40c0-4701-aa51-ab2cd3bd43f8/kaltura/desc_8d645b4e8943e8aaba03fd31573b8e93/vwJ_ASJgMugk/vw=1280,vh=536,fps=24.00,vbrt=791262,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Galaksinin Koruyuculari 2" tvg-logo="" group-title="MCU",Galaksinin Koruyuculari 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/80/90/74/72/77/11/64/19/26/0/ab5c28b9-6bac-46f2-864c-42cd2e89b77b/kaltura/desc_49e82e84b3f80e6654f474d46f542843/v92urPrnFJEQ/vw=1280,vh=536,fps=24.00,vbrt=1041839,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Spiderman Homecoming" tvg-logo="" group-title="MCU",Spiderman Homecoming
-https://s24.imagehub.pics/mn/H3OcMTIlYH1uov5Vo21yL29gnJ5aYwVjZGphDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2IbqJVhpTywpjs0xi24vr1
-#EXTINF:-1 tvg-id="" tvg-name="Thor 3" tvg-logo="" group-title="MCU",Thor 3
-https://cdn.dzen.ru/vod/converted-video/vod-content/95/16/11/42/94/27/53/31/86/eae39336-3bbb-4c43-a7b2-abaf51a92b74/kaltura/desc_6799424806bc07201bcc338703bd8867/vkmG07isuB3s/vw=1280,vh=536,fps=24.00,vbrt=1239825,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Black Panter" tvg-logo="" group-title="MCU",Black Panter
-https://s4.imglink.info/ml/DzkuL2fhHTShqTuypv4lZQR4YxWfqKWurF4kZQtjpP5RIHSZd0zxnJ1aoTyhnl5cozMis0xi4vr1
-#EXTINF:-1 tvg-id="" tvg-name="Avengers 3" tvg-logo="" group-title="MCU",Avengers 3
-https://cdn.dzen.ru/vod/converted-video/vod-content/14/53/24/67/93/40/42/32/65/de2d29e9-01df-4438-a466-9b5c57b3c5b7/kaltura/desc_2099a528ca68ef62ac908194342d5894/vxDDUrZMB0g0/vw=1280,vh=536,fps=24.00,vbrt=1143543,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="karinca Adam 2" tvg-logo="" group-title="MCU",karinca Adam 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/84/86/20/34/81/33/89/71/94/4/8888c632-ce91-449d-b136-639beb3d281e/kaltura/desc_3da1c214ae761d72eea325b7d5895558/vuSeInrJpgSc/vw=1280,vh=536,fps=24.00,vbrt=783783,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Captain Marvel" tvg-logo="" group-title="MCU",Captain Marvel
-https://s9.pixypost.art/mc/F2SjqTShYx1OHyMSGP4kZQtjpP5RIHSZd0zxpTy4rKOip3DhLKW0s0xi9vr1
-#EXTINF:-1 tvg-id="" tvg-name="Avengers 4" tvg-logo="" group-title="MCU",Avengers 4
-https://cdn.dzen.ru/vod/converted-video/vod-content/15/31/67/44/79/13/21/12/01/2/86ee28a8-d587-4222-a6bc-573b7bd6e2e7/kaltura/desc_a05356342408ab2b56cf6b1cf7076086/vt6eDlcqVkz8/vw=1280,vh=536,fps=24.00,vbrt=792367,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Spiderman Far from Home" tvg-logo="" group-title="MCU",Spiderman Far from Home
-https://s4.imagescdns.pics/m6/H3OcMTIlYx1uov5TLKVhMaWioF5Vo21yYwVjZGxhDzk1pzS5YwRjBQOjYxEIDHjd0zxnJ1uM2ImL2Ehpl5jnJAms0xi4vr1
-#EXTINF:-1 tvg-id="" tvg-name="Black Widow" tvg-logo="" group-title="MCU",Black Widow
-https://vidrame.pro/vr/get/226fe687/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Shang-Chi" tvg-logo="" group-title="MCU",Shang-Chi
-https://s230.rapidrame.com/hls2/01/00018/m2f6xqjx70oc_,l,n,.urlset/index-f2-v1-a1.m3u8?t=MxOZpd0Gd5TioNLlAgaO-lVEestIkVWXrEIlc8jdvJo&s=1735341296&e=1199998800&f=92684&srv=s385&i=0.0&sp=0&p1=s230&p2=s230
-#EXTINF:-1 tvg-id="" tvg-name="Eternals" tvg-logo="" group-title="MCU",Eternals
-https://a3.vidload.lol/1070/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Spiderman No way Home" tvg-logo="" group-title="MCU",Spiderman No way Home
-https://s26.imglink.pro/mv/H3OcMTIlYH1uov5Bol5KLKxhFT9gMF4lZQVkYxWfqKWurF4kZQtjpP5RIHRd0zxnJ1aoTyhnl5jpz8s0xi26vr1b2160
-#EXTINF:-1 tvg-id="" tvg-name="Doctor Strange 2" tvg-logo="" group-title="MCU",Doctor Strange 2
-https://s26.pixtures.art/m5/ET9wqT9lYyA0pzShM2HhnJ4hqTuyYx11oUEcqzIlp2Hho2LhGJSxozImpl4lZQVlYxyKEHVgERjhZGN4ZUNhESIOGNd0zxpTy4qUIlMKZhLKW0s0xi26vr1
-#EXTINF:-1 tvg-id="" tvg-name="Thor 4" tvg-logo="" group-title="MCU",Thor 4
-https://vidrame.pro/vr/get/5cac84cf/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Black Panter 2" tvg-logo="" group-title="MCU",Black Panter 2
-https://s5.imgmania.org/m1/DzkuL2fhHTShqTuypv5KLJguozEuYxMipzI2MKVhZwNlZv5WI0IPYHEZYwRjBQOjYxEIDHjd0zxnJ1aoJShnJRho3Was0xi5vr1
-#EXTINF:-1 tvg-id="" tvg-name="Galaksinin Koruyuculari Special" tvg-logo="" group-title="MCU",Galaksinin Koruyuculari Special
-https://s2.photogrids.site/m5/ITuyYxq1LKWxnJShpl5iMv50nTHhE2SfLKu5YxuioTyxLKxhH3OyL2yuoP4lZQVlYyqSDv1RGP4kZQtjpP5RIHSZd0zxpTuiqT9apzyxpl5mnKEys0xi2vr1
-#EXTINF:-1 tvg-id="" tvg-name="Werewolf by Night" tvg-logo="" group-title="MCU",Werewolf by Night
-https://sithmanifest.com/server/videos/367248/eng/cDdpa2g3eHFoM3I5V25wS1JJeTgwQzFMdit1Y1lvQnlMaEhRbjZGc0ZUREZlbk5mYVJIYkE3K3c4OEVJTk5ldw/1080.m3u8?_=1727725128
-#EXTINF:-1 tvg-id="" tvg-name="Karinca adam 3" tvg-logo="" group-title="MCU",Karinca adam 3
-https://s18.photogrids.site/md/DJ50Yx1uov5uozDhqTuyYyqup3NhHKIuoaE1oJShnJRhZwNlZl5WI0IPYHEZYwRjBQOjYxEIDHjd0zxpTuiqT9apzyxpl5mnKEys0xi18vr1
-#EXTINF:-1 tvg-id="" tvg-name="Galaksinin Koruyuculari 3" tvg-logo="" group-title="MCU",Galaksinin Koruyuculari 3
-https://s230.rapidrame.com/hls2/01/00017/ecwqshhs3aq0_,l,n,.urlset/master.m3u8?t=oO1N8VRujNdEtDAk1ihVXFrxpSwJTB8aZ3OxmH5SMso&s=1727448594&e=1199998800&f=87506&srv=s298&i=0.0&sp=0&p1=s230&p2=s230
-#EXTINF:-1 tvg-id="" tvg-name="1000_QL80_.jpg" group-title="MCU",The Marvels" tvg-logo="" group-title="MCU",1000_QL80_.jpg" group-title="MCU",The Marvels
-https://vidrame.pro/vr/get/b38c1403/480.txt
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 3" tvg-logo="" group-title="MCU",Deadpool 3
-https://s1.imagesbox.cloud/m9/ETIuMUOio2jhLJ5xYyqioUMypzyhMF4lZQV0YyqSDv1RGP4kZQtjpP5RIHSZd0zxnJ1uM2ImLz94YzAfo3Ixs0xi1vr1
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli
-https://vidrame.pro/vr/get/2ab5b9a3/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 2" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/38/79/57/04/71/80/84/27/25/8/619271cd-456e-48a8-84e7-9e94c5b3508d/kaltura/desc_6904e4f25421b9f114bf27081a41812b/vgdvhgl6hME4/vw=1280,vh=546,fps=24.00,vbrt=1602756,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 3" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 3
-https://cdn.dzen.ru/vod/converted-video/vod-content/23/27/24/23/79/09/34/31/77/7/1a91e7b0-e9be-44ec-af30-ab710bd54976/kaltura/desc_93571659f7d3dee47b255fe795aeb143/vJX7sHKeRTB4/vw=1280,vh=536,fps=24.00,vbrt=1206082,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 4" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 4
-https://vidrame.pro/vr/get/63bc9250/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 5" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 5
-https://vidrame.pro/vr/get/03790982/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 6" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 6
-https://vidrame.pro/vr/get/25624c87/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 7" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 7
-https://vidrame.pro/vr/get/66988bb7/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 8" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 8
-https://cdn.dzeninfra.com/vod/converted-video/vod-content/31/37/55/31/97/60/30/01/33/a126719c-272a-434b-9b3b-9fdeca466e67/kaltura/desc_1747a38f9a7459425dce36fad9c71a4d/vKzoJbaeGOhU/vw=1920,vh=804,fps=24.00,vbrt=2013306,abrt=129379,vcodec=avc1.640028,acodec=mp4a.40.2,label=1080p/index-f7-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 9" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 9
-https://cdn.dzen.ru/vod/converted-video/vod-content/79/81/29/86/71/80/06/90/2/e78cb599-9648-4a7a-822b-40ce7105512a/kaltura/desc_2e7114dc4d2a2758dbe3474f8f552565/vYfqJXE65bHE/vw=1280,vh=536,fps=24.00,vbrt=1289442,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hizli ve Ofkeli 10" tvg-logo="" group-title="Hizli ve Ofkeli",Hizli ve Ofkeli 10
-https://s24.seeshare.pics/mv/EzSmqP5LYwVjZwZhDzk1pzS5YwRjBQOjYxEIDHjd0zxp2Iyp2uupzHhpTywpjs0xi24vr1
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter" tvg-logo="" group-title="Harry Potter",Harry Potter
-https://cdn.dzen.ru/vod/converted-video/vod-content/48/88/60/47/99/32/84/47/19/9/1d77e788-dddb-4585-861f-f13637a225bc/kaltura/desc_632e960777b6e5fe72f21db7dc66019c/vkXobfS4Q0FE/vw=1280,vh=534,fps=24.00,vbrt=1057640,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 2" tvg-logo="" group-title="Harry Potter",Harry Potter 2
-https://cdn.dzen.ru/vod/converted-video/vod-content/43/39/86/92/16/29/45/98/73/b3ebbf1b-0440-4f5a-ab4f-1665758c2c92/kaltura/desc_86665736235ae6f9572af03ff8ab37ce/vbsc2-Du6BWE/vw=1280,vh=534,fps=24.00,vbrt=986752,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 3" tvg-logo="" group-title="Harry Potter",Harry Potter 3
-https://cdn.dzen.ru/vod/converted-video/vod-content/30/27/22/51/47/13/14/43/59/8/93881b7a-359c-40a2-ae0f-5a1160603917/kaltura/desc_6f31f1be4ef33899a279caf44b013453/vsY5Ad0y7aFU/vw=1280,vh=534,fps=24.00,vbrt=1364999,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 4" tvg-logo="" group-title="Harry Potter",Harry Potter 4
-https://cdn.dzen.ru/vod/converted-video/vod-content/59/07/28/15/76/75/90/20/48/dbf19972-2663-4a85-bb54-9543cee1fc05/kaltura/desc_f64f9ca4d846497c4bef430408cca25f/vn11utH2VBx0/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 5" tvg-logo="" group-title="Harry Potter",Harry Potter 5
-https://s24.imageshub.pro/mc/FTSlpaxhHT90qTIlYwHhZwNjAl5PGSIFDIxhZGN4ZUNhESIOGNd0zxnJ1uM2ImnUIvYaOlojs0xi24vr1
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 6" tvg-logo="" group-title="Harry Potter",Harry Potter 6
-https://cdn.dzen.ru/vod/converted-video/vod-content/89/00/78/12/41/71/20/10/66/6/e9d87728-f42c-4fd4-b2eb-4ec8bc98b5c5/kaltura/desc_f4f5beb7764717c39926764687cc11b5/v2JsATmu7rHM/vw=1280,vh=534,fps=24.00,vbrt=620677,abrt=129380,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 7" tvg-logo="" group-title="Harry Potter",Harry Potter 7
-https://cdn.prectv2.lat/hls/5/ax61/mp4/b10cd9de3ec26655470bcfa5ccc0bc39.mp4/index.m3u8?token=7gT_dcoNvn4NP3ZxO02QBQ&tms=1731874943
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 7" tvg-logo="" group-title="Harry Potter",Harry Potter 7
-https://mp4.prectv2.lat/5/ax61/mp4/b10cd9de3ec26655470bcfa5ccc0bc39.mp4?token=7gT_dcoNvn4NP3ZxO02QBQ&tms=1731874943
-#EXTINF:-1 tvg-id="" tvg-name="Harry Potter 8" tvg-logo="" group-title="Harry Potter",Harry Potter 8
-https://cdn.dzen.ru/vod/converted-video/vod-content/16/62/70/16/49/14/19/83/81/42b1ccb7-762b-426c-a73e-78aa103ff68a/kaltura/desc_5ef987bcec5b9b34980a552c110cf4e9/vJUahp9BgfkM/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Batman The Dark Knight" tvg-logo="" group-title="DCU",Batman The Dark Knight
-https://vidrame.pro/vr/get/503b6fee/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Batman the Dark Rises" tvg-logo="" group-title="DCU",Batman the Dark Rises
-https://cdn.dzen.ru/vod/converted-video/vod-content/43/90/82/24/92/04/41/93/48/3/036a4860-6294-47a6-bef7-8d6dd72e169e/kaltura/desc_c1241ebcfabdbf16d5c36b6eb999733f/vUh-4o7UgHR0/vw=1280,vh=720,fps=24.00,vbrt=1126151,abrt=129379,vcodec=avc1.64001F,acodec=mp4a.40.2,label=720p/index-f6-v1-a1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Suicide Squad: Gerçek Kötüler" tvg-logo="" group-title="DCU",Suicide Squad: Gerçek Kötüler
-https://vidmody.com/vs/tt1386697
-#EXTINF:-1 tvg-id="" tvg-name="Yırtıcı Kuşlar Ve Muhteşem Harley Quinn 2020" tvg-logo="" group-title="DCU",Yırtıcı Kuşlar Ve Muhteşem Harley Quinn 2020
-https://vidmody.com/vs/tt7713068
-#EXTINF:-1 tvg-id="" tvg-name="Han Solo: Bir Star Wars Hikayesi 2018" tvg-logo="" group-title="Star Wars",Han Solo: Bir Star Wars Hikayesi 2018
-https://vidmody.com/vs/tt3778644
-#EXTINF:-1 tvg-id="" tvg-name="Rogue One Bir Star Wars Hikayesi 2016" tvg-logo="" group-title="Star Wars",Rogue One Bir Star Wars Hikayesi 2016
-https://vidmody.com/vs/tt3748528
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars 1 (1977)" tvg-logo="" group-title="Star Wars",Star Wars 1 (1977)
-https://vidmody.com/vs/tt0076759
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars 8 Son Jedi 2017" tvg-logo="" group-title="Star Wars",Star Wars 8 Son Jedi 2017
-https://vidmody.com/vs/tt2527336
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Bölüm 6 – Jedi'ın Dönüşü" tvg-logo="" group-title="Star Wars",Star Wars Bölüm 6 – Jedi'ın Dönüşü
-https://vidmody.com/vs/tt0086190
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Bölüm 7 - Güc Uyanıyor 2015" tvg-logo="" group-title="Star Wars",Star Wars Bölüm 7 - Güc Uyanıyor 2015
-https://vidmody.com/vs/tt2488496
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars Bölüm 9 - Skywalker'in Yükselisi (2019)" tvg-logo="" group-title="Star Wars",Star Wars Bölüm 9 - Skywalker'in Yükselisi (2019)
-https://vidmody.com/vs/tt2527338
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars: Bölüm I - Gizli Tehlike (1999)" tvg-logo="" group-title="Star Wars",Star Wars: Bölüm I - Gizli Tehlike (1999)
-https://vidmody.com/vs/tt0120915
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars: Bölüm II - Klonlar'ın Saldırısı (2002)" tvg-logo="" group-title="Star Wars",Star Wars: Bölüm II - Klonlar'ın Saldırısı (2002)
-https://vidmody.com/vs/tt0121765
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars: Bölüm III - Sith'in İntikamı (2005)" tvg-logo="" group-title="Star Wars",Star Wars: Bölüm III - Sith'in İntikamı (2005)
-https://vidmody.com/vs/tt0121766
-#EXTINF:-1 tvg-id="" tvg-name="Star Wars: Klon Savaşları 2008" tvg-logo="" group-title="Star Wars",Star Wars: Klon Savaşları 2008
-https://vidmody.com/vs/tt1185834
-#EXTINF:-1 tvg-id="" tvg-name="Yıldız Savaşları: İmparator (1980)" tvg-logo="" group-title="Star Wars",Yıldız Savaşları: İmparator (1980)
-https://vidmody.com/vs/tt0080684
-#EXTINF:-1 tvg-id="" tvg-name="Jumanji  1" tvg-logo="" group-title="Filmler",Jumanji  1
-https://vidmody.com/vs/tt0113497
-#EXTINF:-1 tvg-id="" tvg-name="Jumanji 2" tvg-logo="" group-title="Filmler",Jumanji 2
-https://vidmody.com/vs/tt2283362
-#EXTINF:-1 tvg-id="" tvg-name="Jumanji 3" tvg-logo="" group-title="Filmler",Jumanji 3
-https://vidmody.com/vs/tt7975244
-#EXTINF:-1 tvg-id="" tvg-name="Venom" tvg-logo="" group-title="Filmler",Venom
-https://vidrame.pro/vr/get/2e79093d/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Venom 2" tvg-logo="" group-title="Filmler",Venom 2
-https://a2.vidload.lol/169/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Gladyator" tvg-logo="" group-title="Filmler",Gladyator
-https://a3.vidload.lol/1322/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Gladyator 2" tvg-logo="" group-title="Filmler",Gladyator 2
-https://s230.rapidrame.com/hls2/01/00021/zrqbgdvdrect_,l,n,.urlset/index-f2-v1-a1.m3u8?t=HfmmeJsgfM-6edlx9J-3KbRVQLO4V4yC0nkxa1HiSrs&s=1740319834&e=1199998800&f=109769&srv=s390&i=0.0&sp=0&p1=s230&p2=s230
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool" tvg-logo="" group-title="Filmler",Deadpool
-https://a2.vidload.lol/176/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 2" tvg-logo="" group-title="Filmler",Deadpool 2
-https://vidrame.pro/vr/get/b06bb918/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="Deadpool 3" tvg-logo="" group-title="Filmler",Deadpool 3
-https://a2.vidload.lol/3724/1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="1000_QL80_.jpg" group-title="Filmler",Predator 1" tvg-logo="" group-title="Filmler",1000_QL80_.jpg" group-title="Filmler",Predator 1
-https://vidmody.com/vs/tt0093773
-#EXTINF:-1 tvg-id="" tvg-name="1000_QL80_.jpg" group-title="Filmler",Predator 2" tvg-logo="" group-title="Filmler",1000_QL80_.jpg" group-title="Filmler",Predator 2
-https://vidmody.com/vs/tt1424381
-#EXTINF:-1 tvg-id="" tvg-name="Predator 3" tvg-logo="" group-title="Filmler",Predator 3
-https://vidmody.com/vs/tt3829266
-#EXTINF:-1 tvg-id="" tvg-name="Prey" tvg-logo="" group-title="Filmler",Prey
-https://vidmody.com/vs/tt11866324
-#EXTINF:-1 tvg-id="" tvg-name="Platform" tvg-logo="" group-title="Filmler",Platform
-https://vidmody.com/vs/tt8228288
-#EXTINF:-1 tvg-id="" tvg-name="Platform 2" tvg-logo="" group-title="Filmler",Platform 2
-https://load.rectv2024live.com/hls/11/cdn62/7cfe240c265487ca3bbe0bef194b2bbb17280354976.mp4/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hobbit 1" tvg-logo="" group-title="Filmler",Hobbit 1
-https://s11.imageshub.pro/mi/FT9vLzy0YwRhDzIeoTIhoJIxnJfhJJ9fL3IfqJfhITuyYxuiLzWcqP4kYxShYyIhMKujMJA0MJDhFz91pz5yrF4lZQRlYwRjBQOjYxE1LJjd0zxnJ1uM2ImnUIvYaOlojs0xi11vr1b480
-#EXTINF:-1 tvg-id="" tvg-name="Hobbit 2" tvg-logo="" group-title="Filmler",Hobbit 2
-https://vidmody.com/vs/tt1170358
-#EXTINF:-1 tvg-id="" tvg-name="Hobbit 3" tvg-logo="" group-title="Filmler",Hobbit 3
-https://vidmody.com/vs/tt2310332
-#EXTINF:-1 tvg-id="" tvg-name="Açlık Oyunları" tvg-logo="" group-title="Filmler",Açlık Oyunları
-https://vidmody.com/vs/tt1392170
-#EXTINF:-1 tvg-id="" tvg-name="Açlık Oyunları 2" tvg-logo="" group-title="Filmler",Açlık Oyunları 2
-https://vidmody.com/vs/tt1951264
-#EXTINF:-1 tvg-id="" tvg-name="Açlık Oyunları 3" tvg-logo="" group-title="Filmler",Açlık Oyunları 3
-https://vidmody.com/vs/tt1951265
-#EXTINF:-1 tvg-id="" tvg-name="Açlık Oyunları 4" tvg-logo="" group-title="Filmler",Açlık Oyunları 4
-https://vidmody.com/vs/tt1951266
-#EXTINF:-1 tvg-id="" tvg-name="Malefiz 1 2014" tvg-logo="" group-title="Filmler",Malefiz 1 2014
-https://vidmody.com/vs/tt1587310
-#EXTINF:-1 tvg-id="" tvg-name="Malefiz 2 Kötülüğün Gücü 2019" tvg-logo="" group-title="Filmler",Malefiz 2 Kötülüğün Gücü 2019
-https://vidmody.com/vs/tt4777008
 #EXTINF:-1 tvg-id="" tvg-name="WALL·E" tvg-logo="" group-title="Animasyon",WALL·E
 https://vidrame.pro/vr/get/58390cad/1080.txt
 #EXTINF:-1 tvg-id="" tvg-name="Ters Yuz" tvg-logo="" group-title="Animasyon",Ters Yuz
@@ -455,7 +255,7 @@ https://a3.vidload.lol/1055/1080p.m3u8
 https://vidrame.pro/vr/get/968e8cf1/1080.txt
 #EXTINF:-1 tvg-id="" tvg-name="Ters Yuz 2" tvg-logo="" group-title="Animasyon",Ters Yuz 2
 https://s230.rapidrame.com/hls2/01/00021/x7y9j0h1okjd_,l,n,.urlset/index-f2-v1-a1.m3u8?t=DZNe7Tib8vOHcNtAf8DvBBIllqUp9e-T0qOONzQ2hL0&s=1735415922&e=1199998800&f=107414&srv=s390&i=0.0&sp=0&p1=s230&p2=s230
-#EXTINF:-1 tvg-id="" tvg-name="1000_QL80_.jpg" group-title="Animasyon",Srek 1" tvg-logo="" group-title="Animasyon",1000_QL80_.jpg" group-title="Animasyon",Srek 1
+#EXTINF:-1 tvg-id="" tvg-name="Srek 1" tvg-logo="" group-title="Animasyon",1000_QL80_.jpg" group-title="Animasyon",Srek 1" tvg-logo="" group-title="Animasyon",Srek 1" tvg-logo="" group-title="Animasyon",1000_QL80_.jpg" group-title="Animasyon",Srek 1
 https://vidrame.pro/vr/get/45ba91a9/1080.txt
 #EXTINF:-1 tvg-id="" tvg-name="Srek 2" tvg-logo="" group-title="Animasyon",Srek 2
 https://vidmody.com/vs/tt0298148
@@ -463,29 +263,3 @@ https://vidmody.com/vs/tt0298148
 https://vidmody.com/vs/tt0413267
 #EXTINF:-1 tvg-id="" tvg-name="Srek 4" tvg-logo="" group-title="Animasyon",Srek 4
 https://vidrame.pro/vr/get/cc6feded/1080.txt
-#EXTINF:-1 tvg-id="" tvg-name="ORF 1" tvg-logo="" group-title="Almanya TV",ORF 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="" tvg-name="Dmax" tvg-logo="" group-title="Almanya TV",Dmax
-https://s6.hopslan.com/dmaxX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="3 Sat" tvg-logo="" group-title="Almanya TV",3 Sat
-https://s4.hopslan.com/3satX/tracks-v1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Arte" tvg-logo="" group-title="Almanya TV",Arte
-https://s6.hopslan.com/arteX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Super RTL" tvg-logo="" group-title="Almanya TV",Super RTL
-https://s6.hopslan.com/superX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="N24" tvg-logo="" group-title="Almanya-Belgesel",N24
-https://s6.hopslan.com/n24X/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kabel 1 Doku" tvg-logo="" group-title="Almanya-Belgesel",Kabel 1 Doku
-https://s6.hopslan.com/dokuX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Phoenix" tvg-logo="" group-title="Almanya-Belgesel",Phoenix
-https://s4.hopslan.com/phoenixX/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ARD" tvg-logo="" group-title="Almanya-Haber",ARD
-https://s6.hopslan.com/ardX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ZDF" tvg-logo="" group-title="Almanya-Haber",ZDF
-https://s6.hopslan.com/zdfX/tracks-v1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Pro 7 Max" tvg-logo="" group-title="Almanya-Cocuk",Pro 7 Max
-https://s6.hopslan.com/pro7maxxX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Almanya-Cocuk",Disney Channel
-https://s6.hopslan.com/disneyX/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TNT Sports 1" tvg-logo="" group-title="Yabanci Spor",TNT Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
