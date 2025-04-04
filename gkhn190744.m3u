@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="" tvg-name="TRT 1" tvg-logo="" group-title="Ulusal",TRT 1
 http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="atv" tvg-logo="" group-title="Ulusal",atv
-https://trkvz-live.daioncdn.net/atv/atv.m3u8
+http://stream.tvcdn.net/ulusal/atv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal D" tvg-logo="" group-title="Ulusal",Kanal D
 http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Show TV" tvg-logo="" group-title="Ulusal",Show TV
@@ -28,7 +28,7 @@ http://stream.tvcdn.net/haber/haberturk.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV 100" tvg-logo="" group-title="Haber",TV 100
 http://stream.tvcdn.net/ulusal/tv-100.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ekol TV" tvg-logo="" group-title="Haber",Ekol TV
-http://stream.tvcdn.net/yerel/ekol-tv.m3u8
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NTV" tvg-logo="" group-title="Haber",NTV
 http://stream.tvcdn.net/haber/ntv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CNN Türk" tvg-logo="" group-title="Haber",CNN Türk
