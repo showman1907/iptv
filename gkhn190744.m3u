@@ -146,43 +146,19 @@ http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/106.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sinema TV" tvg-logo="" group-title="Sinema",Sinema TV
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/82.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FB TV" tvg-logo="" group-title="Spor",FB TV
-#EXTVLCOPT:http-referrer=https://canlitv.com/
+http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Spor" tvg-logo="" group-title="Spor",A Spor
-https://tgn.bozztv.com/dvrfl05/gin-aspor/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="A Spor" tvg-logo="" group-title="Spor",A Spor
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
+http://stream.tvcdn.net/spor/a-spor.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRT Spor" tvg-logo="" group-title="Spor",TRT Spor
-https://tgn.bozztv.com/dvrfl05/gin-trtspor/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TRT Spor" tvg-logo="" group-title="Spor",TRT Spor
-#EXTVLCOPT:http-referrer=https://trgoals1115.xyz
-#EXTINF:-1 tvg-id="" tvg-name="TRT Spor Yıldız" tvg-logo="" group-title="Spor",TRT Spor Yıldız
-#EXTVLCOPT:http-referrer=https://trgoals1115.xyz
-#EXTINF:-1 tvg-id="" tvg-name="TRT Spor  Yıldız" tvg-logo="" group-title="Spor",TRT Spor  Yıldız
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
+http://stream.tvcdn.net/spor/trt-spor.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Fit Yaşa TV" tvg-logo="" group-title="Spor",Fit Yaşa TV
+http://stream.tvcdn.net/spor/fit-yasa-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HT Spor" tvg-logo="" group-title="Spor",HT Spor
 https://ciner-live.daioncdn.net/ht-spor/ht-spor_1080p.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="NBA TV" tvg-logo="" group-title="Spor",NBA TV
-#EXTVLCOPT:http-referrer=https://inattv943.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="Euro Sport" tvg-logo="" group-title="Spor",Euro Sport
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="Euro Sport 2" tvg-logo="" group-title="Spor",Euro Sport 2
-http://localhd.tv:8080/cs22cs.suroot/4amFSTThYHGGS2223/10026
 #EXTINF:-1 tvg-id="" tvg-name="Tivibu Spor" tvg-logo="" group-title="Spor",Tivibu Spor
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-#EXTINF:-1 tvg-id="" tvg-name="Tivibu Spor 1" tvg-logo="" group-title="Spor",Tivibu Spor 1
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="Tivibu Spor 2" tvg-logo="" group-title="Spor",Tivibu Spor 2
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="Tivibu Spor 3" tvg-logo="" group-title="Spor",Tivibu Spor 3
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="Spor Smart" tvg-logo="" group-title="Spor",Spor Smart
-#EXTVLCOPT:http-referrer=https://golvar2014.sbs/
-#EXTINF:-1 tvg-id="" tvg-name="Spor Smart 2" tvg-logo="" group-title="Spor",Spor Smart 2
-#EXTVLCOPT:http-referrer=https://trgoals1201.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="S SPORT" tvg-logo="" group-title="Spor",S SPORT
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
-#EXTINF:-1 tvg-id="" tvg-name="S SPORT 2" tvg-logo="" group-title="Spor",S SPORT 2
-#EXTVLCOPT:http-referrer=https://trgoals1077.xyz/
+http://stream.tvcdn.net/spor/tivibu-spor.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Ziraat Türkiye Kupası TV" tvg-logo="" group-title="Spor",Ziraat Türkiye Kupası TV
+http://stream.tvcdn.net/spor/ziraat-turkiye-kupasi-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Haber" tvg-logo="" group-title="Spor",beIN SPORTS Haber
 https://tgn.bozztv.com/dvrfl05/gin-beinsportshaber/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS" tvg-logo="" group-title="Spor",beIN SPORTS
