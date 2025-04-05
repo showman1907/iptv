@@ -145,8 +145,6 @@ http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/90.ts.m3u8
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/106.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sinema TV" tvg-logo="" group-title="Sinema",Sinema TV
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/82.ts.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="Orta Direk Şaban" tvg-logo="" group-title="Sinema",Orta Direk Şaban
-http://myiptvstreamer.com/live/DyPnG2lRIIs/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FB TV" tvg-logo="" group-title="Spor",FB TV
 http://stream.tvcdn.net/spor/fb-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Spor" tvg-logo="" group-title="Spor",A Spor
