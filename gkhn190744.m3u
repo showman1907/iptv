@@ -23,6 +23,8 @@ http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1806
 https://bcovlive-a.akamaihd.net/8fe5dabcdbcd4af0ace7b991a12a6a4c/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ER TV" tvg-logo="" group-title="Ulusal", ER TV
 http://stream.tvcdn.net/yerel/er-tv-malatya.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ER TV" tvg-logo="" group-title="Ulusal", Malatya Vuslat TV
+http://stream.tvcdn.net/yerel/malatya-vuslat-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal 7" tvg-logo="" group-title="Ulusal",Kanal 7
 https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Teve 2" tvg-logo="" group-title="Ulusal",Teve 2
