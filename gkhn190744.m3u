@@ -13,6 +13,10 @@ https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
 http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
 https://b.fulltvizle.com/kanal8/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="beIN Gurme" tvg-logo="" group-title="Belgesel",beIN Gurme
+http://unreal.eztv4you.xyz:25461/98392023/224vpw99f7/432169
+#EXTINF:-1 tvg-id="" tvg-name="Bein Iz" tvg-logo="" group-title="Belgesel",Bein Iz
+http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1806
 #EXTINF:-1 tvg-id="" tvg-name="TV 8.5" tvg-logo="" group-title="Ulusal",TV 8.5
 https://bcovlive-a.akamaihd.net/8fe5dabcdbcd4af0ace7b991a12a6a4c/eu-central-1/6415845530001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal 7" tvg-logo="" group-title="Ulusal",Kanal 7
@@ -75,10 +79,6 @@ https://tv.arectv29.sbs/live/viasathistory.m3u8
 http://ekosupport.xyz:80/live/uayoglu39/KfVL4Vdj66/813471.ts.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BBC Earth" tvg-logo="" group-title="Belgesel",BBC Earth
 http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/8238
-#EXTINF:-1 tvg-id="" tvg-name="beIN Gurme" tvg-logo="" group-title="Belgesel",beIN Gurme
-http://unreal.eztv4you.xyz:25461/98392023/224vpw99f7/432169
-#EXTINF:-1 tvg-id="" tvg-name="Bein Iz" tvg-logo="" group-title="Belgesel",Bein Iz
-http://bertalone.autos:8080/test_acct/ohbo1veifa4AhD/1806
 #EXTINF:-1 tvg-id="" tvg-name="Yaban TV" tvg-logo="" group-title="Belgesel",Yaban TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="" tvg-name="Docubox" tvg-logo="" group-title="Belgesel",Docubox
