@@ -13,6 +13,8 @@ https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
 http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
 https://b.fulltvizle.com/kanal8/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sağlıklı Günler TV" tvg-logo="" group-title="Ulusal",Sağlıklı Günler
+http://stream.tvcdn.net/eglence/saglikli-gunler-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="beIN Gurme" tvg-logo="" group-title="Ulusal",beIN Gurme
 http://unreal.eztv4you.xyz:25461/98392023/224vpw99f7/432169
 #EXTINF:-1 tvg-id="" tvg-name="Bein Iz" tvg-logo="" group-title="Ulusal",Bein Iz
@@ -27,8 +29,6 @@ https://demiroren-live.daioncdn.net/teve2/teve2_1080p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="360 TV" tvg-logo="" group-title="Ulusal",360 TV
 https://tv.ensonhaber.com/tv360/tv360.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sağlıklı Günler TV" tvg-logo="" group-title="Ulusal",Sağlıklı Günler
-http://stream.tvcdn.net/eglence/saglikli-gunler-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sözcü TV" tvg-logo="" group-title="Haber",Sözcü TV
 https://ancient-shape-c20a.yedekbirkankam.workers.dev/https://szctvdvr.blutv.com/blutv_szctv_dvr/live_720p4350000kbps/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Haber Türk" tvg-logo="" group-title="Haber",Haber Türk
