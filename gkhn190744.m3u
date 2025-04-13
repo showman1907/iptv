@@ -3,16 +3,24 @@
 https://tv-trt1.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Show TV" tvg-logo="" group-title="Ulusal",Show TV
 https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Show TV" tvg-logo="" group-title="Ulusal",Show TV
+http://stream.tvcdn.net/ulusal/show-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Star" tvg-logo="" group-title="Ulusal",Star
 https://dogus-live.daioncdn.net/startv/startv_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ATV" tvg-logo="" group-title="Ulusal",ATV
 https://trkvz-live.daioncdn.net/atv/atv_720p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ATV" tvg-logo="" group-title="Ulusal",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal D" tvg-logo="" group-title="Ulusal",Kanal D
 https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Kanal D" tvg-logo="" group-title="Ulusal",Kanal D
+http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Now" tvg-logo="" group-title="Ulusal",Now
 http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
 https://b.fulltvizle.com/kanal8/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
+http://stream.tvcdn.net/ulusal/tv8.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sağlıklı Günler TV" tvg-logo="" group-title="Ulusal",Sağlıklı Günler
 http://stream.tvcdn.net/eglence/saglikli-gunler-tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="beIN Gurme" tvg-logo="" group-title="Ulusal",beIN Gurme
