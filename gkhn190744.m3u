@@ -41,8 +41,6 @@ https://demiroren-live.daioncdn.net/teve2/teve2_1080p.m3u8
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="360 TV" tvg-logo="" group-title="Ulusal",360 TV
 https://tv.ensonhaber.com/tv360/tv360.m3u8
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="https://fths.pp.ua/iptv/trt1.png" group-title="Ulusal Yedek",TRT 1
-http://stream.tvcdn.net/ulusal/trt-1.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/d6c87Km/trt122.png" group-title="Ulusal Yedek",TRT 1 
 https://tv-trt1-esdai.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/n1SCYqN/atv.png" group-title="Ulusal Yedek",ATV
