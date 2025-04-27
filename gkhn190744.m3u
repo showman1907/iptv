@@ -20,11 +20,7 @@ http://stream.tvcdn.net/ulusal/kanal-d.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Now" tvg-logo="" group-title="Ulusal",Now
 http://116.202.238.88/FOXTV_TR/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
-https://b.fulltvizle.com/kanal8/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TV 8" tvg-logo="" group-title="Ulusal",TV 8
-http://stream.tvcdn.net/ulusal/tv8.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sağlıklı Günler TV" tvg-logo="" group-title="Ulusal",Sağlıklı Günler
-http://stream.tvcdn.net/eglence/saglikli-gunler-tv.m3u8
+https://bcovlive-a.akamaihd.net/ccee7091e86040d18e14cd0efef2a51b/eu-central-1/6415845530001/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="beIN Gurme" tvg-logo="" group-title="Ulusal",beIN Gurme
 http://unreal.eztv4you.xyz:25461/98392023/224vpw99f7/432169
 #EXTINF:-1 tvg-id="" tvg-name="Bein Iz" tvg-logo="" group-title="Ulusal",Bein Iz
